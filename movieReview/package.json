@@ -1,0 +1,26 @@
+{
+  "name": "movie-review",
+  "version": "1.0.0",
+  "description": "A movie browsing and reviewing app using Node.js and the moviedb API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movie",
+    "browser",
+    "API",
+    "review"
+  ],
+  "author": "HRH",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "22.7.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0",
+    "node-fetch": "3.3.2"
+  }
+}

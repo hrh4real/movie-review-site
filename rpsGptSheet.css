@@ -1,0 +1,59 @@
+body {
+    background-color: darkblue;
+    font-family: 'Arial', sans-serif; /* Customize font */
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+#text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: lightgray;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add shadow for depth */
+}
+
+#controls {
+    border: 1px solid black;
+    padding: 5px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#controls:hover {
+    background-color: lightblue; /* Hover effect */
+}
+
+#stats {
+    border: 1px solid black;
+    color: darkblue; /* Improved contrast */
+    padding: 5px;
+}
+
+#monsterStats {
+    display: none;
+    border: 1px solid black;
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #game {
+        width: 100%; /* Full width on small screens */
+    }
+}
